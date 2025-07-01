@@ -26,4 +26,7 @@ namespace SISApp.entity
             FirstName = firstName;
             LastName = lastName;
             DateOfBirth = dateOfBirth;
-            Email = e
+            Email = email;
+        }
+    }
+}
