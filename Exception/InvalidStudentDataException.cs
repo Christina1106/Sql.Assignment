@@ -1,4 +1,4 @@
-﻿using System;
+ng System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SISAPP.assessment.Exception
 {
-    internal class InvalidStudentDataException
+    public class InvalidStudentDataException : ApplicationException
     {
+        public InvalidStudentDataException(string message) : base(message) { }
     }
 }
